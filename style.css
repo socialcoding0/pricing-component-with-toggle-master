@@ -71,8 +71,9 @@ input[type=checkbox] {
     top: 0;
     right: 0;
     bottom: 0;
-    background: rgb(163, 168, 240);
+    background: rgb(105, 111, 221);
     border-radius: 50px;
+    transition: .4s;
 }
 
 .switch::after {
@@ -89,6 +90,10 @@ input[type=checkbox] {
 
 .switch:checked:after {
     left: 33px;
+}
+
+.switch:checked::before {
+    background: rgb(163, 168, 240);
 }
 
 

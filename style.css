@@ -44,6 +44,9 @@ main {
     color: var(--Dark-Grayish-Blue);
 }
 
+input[type=checkbox] {
+    -moz-appearance: initial;
+}
 
 
 .switch {
@@ -54,6 +57,7 @@ main {
     height: 30px;
     cursor: pointer;
     transform: translate(0px, 10px);
+
 }
 
 .switch::before {

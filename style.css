@@ -48,12 +48,12 @@ main {
     color: var(--Dark-Grayish-Blue);
 }
 
-input[type=checkbox] {
+label input[type=checkbox] {
     -moz-appearance: initial;
 }
 
 
-.switch {
+label .switch {
     width: 60px;
     background-color: transparent;
     position: relative;
@@ -64,7 +64,7 @@ input[type=checkbox] {
 
 }
 
-.switch::before {
+label .switch::before {
     content: "";
     position: absolute;
     left: 0;
@@ -75,7 +75,7 @@ input[type=checkbox] {
     border-radius: 50px;
 }
 
-.switch::after {
+label .switch::after {
     content: "";
     position: absolute;
     left: 5px;
@@ -87,7 +87,7 @@ input[type=checkbox] {
     transition: .3s;
 }
 
-.switch:checked:after {
+label .switch:checked:after {
     left: 33px;
 }
 

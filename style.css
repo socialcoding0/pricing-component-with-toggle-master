@@ -92,14 +92,14 @@ label .switch:checked:after {
 }
 
 
-.display1 {
+label .display1 {
     align-items: center;
     justify-content: center;
     gap: 1rem;
     margin-top: 5rem;
 }
 
-.a {
+label .a {
     display: flex;
 }
 

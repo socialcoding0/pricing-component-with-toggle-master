@@ -171,7 +171,14 @@ input[type=checkbox] {
 .price {
     font-size: 2.5rem;
     padding-top: 0rem !important;
+    align-items: center;
+    display: flex;
+    gap: .2rem;
+    justify-content: center;
+}
 
+.price span:nth-child(1) {
+    font-size: 1.5rem;
 }
 
 .learn-more {
